@@ -47,7 +47,11 @@ body {
   height:80px;
   border-radius: 50%;
 }
+/*	div:nth-of-type(1) {
+        grid-area: details;
+        box-shadow: 0 10px 100px #E6E6E6;
 
+    }*/
 .nombre-descripcion{
   grid-area: details;
   box-shadow: 0 10px 100px #E6E6E6;
@@ -130,7 +134,7 @@ nav ul li a {
   z-index: 1;
   background-color: white;
   border:1px solid grey;
-  display:none;
+  display:inline;
 }
 
 .agregar-contacto {
