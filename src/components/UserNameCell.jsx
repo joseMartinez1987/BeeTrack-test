@@ -4,9 +4,9 @@ export default class UserNameCell extends Component {
     render() {
         return (
             <div>
-                <img src={this.props.userImage} alt=""/>
+                <img className="images" src={this.props.userImage} alt=""/>
                 <p className="bold">{this.props.userName}</p><br/>
-                <a href="#" className="eliminar">Eliminar</a>
+                <a onClick={(event)=>this.props.delete(this.props.id)} href="#" className="eliminar">Eliminar</a>
             </div>
         )
     }
